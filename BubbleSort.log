@@ -1,1 +1,111 @@
+python bubble_sort_agent.py
 
+Please enter the numbers to sort (space-separated):
+Example: 64 34 25 12 22 11 90
+Numbers: 12 13 67 14 75 43 23 98
+╭───────────────── 👋 Hello! ─────────────────╮
+│ Welcome to the Cognitive Bubble Sort Agent! │
+╰─────────────────────────────────────────────╯
+
+What's your name?: Sudhakar
+
+How would you like to visualize the sorting process? [detailed/simple/minimal](detailed): detailed
+
+How fast should the sorting visualization be? [fast/medium/slow] (medium): slow
+
+Which color scheme do you prefer? [colorful/monochrome/pastel] (colorful): colorful
+
+How detailed should the explanations be? [basic/intermediate/advanced]        
+(intermediate): intermediate
+
+What aspect of bubble sort interests you most? [algorithm steps/performance   
+analysis/visualization/all] (all): all
+
+Thank you for sharing your preferences!
+╭───────────────────────────── Your Preferences ─────────────────────────────╮│ name: Sudhakar                                                             ││ visualization: detailed                                                    ││ speed: slow                                                                ││ color_scheme: colorful                                                     ││ explanation_level: intermediate                                            ││ learning_focus: all                                                        │╰────────────────────────────────────────────────────────────────────────────╯
+Press Enter to start the sorting process...
+
+🔄 Starting bubble sort for array: [12, 13, 67, 14, 75, 43, 23, 98]
+╭────────────────────────────────────────────────────────────────────────────╮│ Starting Bubble Sort for Sudhakar's array                                  │╰────────────────────────────────────────────────────────────────────────────╯Session initialized
+[08:41:18] [agent] 4 tools loaded
+[08:41:18] [loop] Step 1 started
+[08:41:18] [perception] Intent: bubble_sort, Array state: [12, 13, 67, 14, 75, 43, 23, 98]
+[08:41:18] [memory] Retrieved 1 relevant memories
+[08:41:19] [plan] Plan generated: FUNCTION_CALL: compare_elements|a=12|b=13
+[08:41:19] [parser] Parsed: compare_elements → {'a': 12, 'b': 13}
+[08:41:19] [tool] Calling 'compare_elements' with: {'a': 12, 'b': 13}
+[08:41:19] [tool] Tool result: False
+[08:41:19] [tool] compare_elements returned: False
+[08:41:20] [loop] Step 2 started
+[08:41:21] [perception] Intent: bubble_sort, Array state: [12, 13, 67, 14, 75, 43, 23, 98]
+[08:41:21] [memory] Retrieved 2 relevant memories
+[08:41:21] [plan] Plan generated: FUNCTION_CALL: compare_elements|a=0|b=1
+[08:41:21] [parser] Parsed: compare_elements → {'a': 0, 'b': 1}
+[08:41:21] [tool] Calling 'compare_elements' with: {'a': 0, 'b': 1}
+[08:41:21] [tool] Tool result: False
+[08:41:21] [tool] compare_elements returned: False
+[08:41:22] [loop] Step 3 started
+[08:41:23] [perception] Intent: bubble_sort, Array state: [12, 13, 67, 14, 75, 43, 23, 98]
+[08:41:23] [memory] Retrieved 3 relevant memories
+[08:41:23] [plan] Plan generated: FUNCTION_CALL: compare_elements|a=12|b=13
+[08:41:23] [parser] Parsed: compare_elements → {'a': 12, 'b': 13}
+[08:41:23] [tool] Calling 'compare_elements' with: {'a': 12, 'b': 13}
+[08:41:23] [tool] Tool result: False
+[08:41:23] [tool] compare_elements returned: False
+[08:41:24] [loop] Step 4 started
+[08:41:25] [perception] Intent: bubble_sort, Array state: [12, 13, 67, 14, 75, 43, 23, 98]
+[08:41:25] [memory] Retrieved 3 relevant memories
+[08:41:25] [plan] Plan generated: FUNCTION_CALL: compare_elements|a=0|b=1
+[08:41:25] [parser] Parsed: compare_elements → {'a': 0, 'b': 1}
+[08:41:25] [tool] Calling 'compare_elements' with: {'a': 0, 'b': 1}
+[08:41:25] [tool] Tool result: False
+[08:41:25] [tool] compare_elements returned: False
+[08:41:26] [loop] Step 5 started
+[08:41:27] [perception] Intent: bubble_sort, Array state: [12, 13, 67, 14, 75, 43, 23, 98]
+[08:41:27] [memory] Retrieved 3 relevant memories
+[08:41:27] [plan] Plan generated: FUNCTION_CALL: compare_elements|a=12|b=13
+[08:41:27] [parser] Parsed: compare_elements → {'a': 12, 'b': 13}
+[08:41:27] [tool] Calling 'compare_elements' with: {'a': 12, 'b': 13}
+[08:41:27] [tool] Tool result: False
+[08:41:27] [tool] compare_elements returned: False
+[08:41:28] [loop] Step 6 started
+[08:41:29] [perception] Intent: bubble_sort, Array state: [12, 13, 67, 14, 75, 43, 23, 98]
+[08:41:29] [memory] Retrieved 3 relevant memories
+[08:41:29] [plan] Plan generated: FUNCTION_CALL: compare_elements|a=0|b=1
+[08:41:29] [parser] Parsed: compare_elements → {'a': 0, 'b': 1}
+[08:41:29] [tool] Calling 'compare_elements' with: {'a': 0, 'b': 1}
+[08:41:29] [tool] Tool result: False
+[08:41:29] [tool] compare_elements returned: False
+[08:41:30] [loop] Step 7 started
+[08:41:31] [perception] Intent: bubble_sort, Array state: [12, 13, 67, 14, 75, 43, 23, 98]
+[08:41:31] [memory] Retrieved 3 relevant memories
+[08:41:31] [plan] Plan generated: FUNCTION_CALL: compare_elements|a=0|b=1
+[08:41:31] [parser] Parsed: compare_elements → {'a': 0, 'b': 1}
+[08:41:31] [tool] Calling 'compare_elements' with: {'a': 0, 'b': 1}
+[08:41:31] [tool] Tool result: False
+[08:41:31] [tool] compare_elements returned: False
+[08:41:32] [loop] Step 8 started
+[08:41:33] [perception] Intent: bubble_sort, Array state: [12, 13, 67, 14, 75, 43, 23, 98]
+[08:41:33] [memory] Retrieved 3 relevant memories
+[08:41:33] [plan] Plan generated: FUNCTION_CALL: compare_elements|a=1|b=2
+[08:41:33] [parser] Parsed: compare_elements → {'a': 1, 'b': 2}
+[08:41:33] [tool] Calling 'compare_elements' with: {'a': 1, 'b': 2}
+[08:41:33] [tool] Tool result: False
+[08:41:33] [tool] compare_elements returned: False
+[08:41:34] [loop] Step 9 started
+[08:41:34] [perception] Intent: bubble_sort, Array state: [12, 13, 67, 14, 75, 43, 23, 98]
+[08:41:34] [memory] Retrieved 3 relevant memories
+[08:41:35] [plan] Plan generated: FUNCTION_CALL: compare_elements|a=0|b=1
+[08:41:35] [parser] Parsed: compare_elements → {'a': 0, 'b': 1}
+[08:41:35] [tool] Calling 'compare_elements' with: {'a': 0, 'b': 1}
+[08:41:35] [tool] Tool result: False
+[08:41:35] [tool] compare_elements returned: False
+[08:41:36] [loop] Step 10 started
+[08:41:37] [perception] Intent: bubble_sort, Array state: [12, 13, 67, 14, 75, 43, 23, 98]
+[08:41:37] [memory] Retrieved 3 relevant memories
+[08:41:37] [plan] Plan generated: FUNCTION_CALL: compare_elements|a=12|b=13
+[08:41:37] [parser] Parsed: compare_elements → {'a': 12, 'b': 13}
+[08:41:37] [tool] Calling 'compare_elements' with: {'a': 12, 'b': 13}
+[08:41:37] [tool] Tool result: False
+[08:41:37] [tool] compare_elements returned: False
+[08:41:38] [agent] Bubble Sort completed for Sudhakar.
